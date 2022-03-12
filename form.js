@@ -1,4 +1,4 @@
-import { DataBind } from "./ui-js-data-bind.js";
+import { UiJsDataBind } from "./ui-js-data-bind.js";
 
 const tpl = `
   <form>
@@ -14,7 +14,7 @@ const tpl = `
 class DataForm extends HTMLElement {
   constructor() {
     super();
-    this.binding = new DataBind(this, {});
+    this.binding = new UiJsDataBind(this, {});
   }
 
   connectedCallback() {

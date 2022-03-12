@@ -1,7 +1,7 @@
 /**
  * Create two way databinding by using a Proxy object and change event
  */
-export class DataBind {
+export class UiJsDataBind {
   constructor(parent, obj) {
     this.eventSource = parent;
     this.bindings = {};
