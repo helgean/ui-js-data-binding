@@ -1,0 +1,20 @@
+{
+  "name": "ui-js-data-bind",
+  "version": "0.1.1",
+  "repository": "https://github.com/helgean/ui-js-data-binding",
+  "keywords": [
+    "javascript",
+    "ui",
+    "data",
+    "databinding",
+    "webcomponent"
+  ],
+  "author": "Helge Andersen",
+  "license": "MIT",
+  "files": [
+  	"ui-js-data-bind.js",
+  	"README.md"
+  ],
+  "description": "Tiny modern data binding javascript library, using Proxy object",
+  "main": "ui-js-data-bind.js"
+}
